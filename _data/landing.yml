@@ -13,7 +13,7 @@
   css: timeline
 
 - id: information
-  i18n: nav.blog
+  i18n: nav.info
   name: INFO
   tpl: blog.html
   css: testimonials navy-section
