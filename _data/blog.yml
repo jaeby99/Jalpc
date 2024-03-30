@@ -1,26 +1,19 @@
 # blog page sections
-- name: Blog
+- name: Professor
   href: /blog/
 
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
-- name: Python
+- name: Members
   href: /python/
 
-- name: Linux
+- name: Publications
   href: /linux/
 
-- name: HTML
+- name: Presentations
   href: /html/
 
-- name: Database
+- name: Projects
   href: /database/
 
-- name: Mac
+- name: Patents
   href: /mac/
-
-- name: Life
-  href: /life/
-
-# Don't display donation page: change donation to off at file '_config.yml'
-- name: Donate
-  href: /donate/
