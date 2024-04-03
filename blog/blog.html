@@ -16,42 +16,12 @@ permalink: /blog/
 	<div class="row align-items-start">
 	    <div class="col-lg-offset-2 col-bt-4" style="display: flex; align-items: start;">
 		    <img src="/Paiclab/static/assets/img/joonwoolee.jpeg" width=300px, height=auto alt=""></img>
-		    <div class="col-lg-offset-1">
+		    <div class="col-lg-offset-1 row-lg-offset-2">
 		        <h3 style="font-size:20px">Joonwoo Lee (이준우)</h3>
 			<p style="font-size:18px">I am an assistant professor in School of Computer Science and Engineering at Chung-Ang University since September 2022. Before joining Chung-Ang University, I obtained my Ph.D. in Department of Electrical and Computer Engineering at Seoul National University advised by Jong-Seon No in August 2022.</p>
 		    </div>
-		    <h3 style="font-size:28px">Joonwoo Lee (이준우)</h3>
 	    </div>
 	</div>
-        <div class="wrapper wrapper-content animated fadeInRight">
-            <!-- latest 10 blog -->
-			{% for post in site.posts limit:10 %}
-            <div class="vote-item">
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="vote-actions">
-                        </div>
-                        <a href="{{ post.url | prepend: site.baseurl }}" class="vote-title">
-                            {{ post.title }}
-                        </a>
-                        <div class="vote-info">
-                        {% if site.disqus %}
-                            <i class="fa fa-comments-o"> </i> <a>Comments (<span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ post.url }}">0</span>)</a>
-                        {% endif %}
-                            <i class="fa fa-clock-o"></i> <a>{{ post.date | date: "%-d %b %Y" }}</a>
-                            <i class="fa fa-user"></i> <a>{{ site.author.name }}</a>
-                        </div>
-                    </div>
-                    <div class="col-md-2 ">
-                        <div class="vote-icon">
-                            {% if post.icon %}<i class="fa {{ post.icon }}"> </i>{% endif %}
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
     </div>
-
 </div>
 
