@@ -4,16 +4,16 @@
 
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
 - name: Members
-  href: /python/
+  href: /members/
 
 - name: Publications
-  href: /linux/
+  href: /publications/
 
 - name: Presentations
-  href: /html/
+  href: /presentations/
 
 - name: Projects
-  href: /database/
+  href: /projects/
 
 - name: Patents
-  href: /mac/
+  href: /patents/
