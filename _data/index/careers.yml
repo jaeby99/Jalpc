@@ -13,7 +13,6 @@
     detail: 
     i18n: 
   icon: fa-plus-square
-  present: true
 
 - name:
     detail: Unggi Yeo
@@ -27,6 +26,21 @@
   job:
     detail: Master's student
     i18n: yeo_job
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: "Rotation Key Reduction for Client-Server Systems of Deep Neural Network on Fully Homomorphic Encryption"
+    i18n: asiacrypt1
+  desc:
+    detail: Paper has been accepted to ASIACRYPT 2023
+    i18n: asiacrypt1_desc
+  date:
+    detail: Dec.2023
+    i18n: asiacrypt1_date
+  job:
+    detail: ASIACRYPT
+    i18n: asiacrypt1_job
   icon: fa-plus-square
 
 - name:
@@ -42,3 +56,4 @@
     detail: Master's student
     i18n: bae_job
   icon: fa-plus-square
+  present: true
