@@ -1,0 +1,23 @@
+# publications section data
+
+- title:
+    detail: Rotation Key Reduction for Client-Server Systems of Deep Neural Network on Fully Homomorphic Encryption
+  conference:
+    detail: ASIACRYPT 2023
+  author:
+    detail: Joon-Woo Lee, Eunsang Lee*, Young-Sik Kim*, Jong-Seon No
+  date:
+    detail: December 2023
+  ref:
+    detail: https://eprint.iacr.org/2022/532.pdf
+
+- title:
+    detail: Precise Approximation of Convolutional Neural Networks for Homomorphically Encrypted Data
+  conference:
+    detail: IEEE Access
+  author:
+    detail: Junghyun Lee, Eunsang Lee*, Joon-Woo Lee*, Yongjune Kim, Young-Sik Kim and Jong-Seon No
+  date:
+    detail: June 2023
+  ref:
+    detail: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10155408

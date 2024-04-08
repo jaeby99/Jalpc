@@ -15,6 +15,24 @@ permalink: /publications/
 	<div class="col-lg-10 col-lg-offset-3">
 		<div class="row">
 			<h3 style="font-size:30px;"><U>2023<br></U></h3>
+			{% for paper in site.data.lab.publications %}
+			{% assign loopindex = forloop.index | modulo: 2 %}
+			<div class="col-lg-10 mt-lg-offset-4">
+				<div class="row">
+					<h4 style="font-size:20px">
+						<a href="{{ paper.ref }}">
+							<U>
+							<strong>{{ paper.title }}</strong>
+							</U>
+						</a>
+					</h4>
+					<p style="font-size:16px">
+						{{ paper.author }},
+						<em>{{ paper.conference }}</em>,
+						{{ paper.date }}
+					</p>
+				</div>
+			</div>
 			<div class="col-lg-10 mt-lg-offset-4">
 				<div class="row">
 					<h4 style="font-size:20px">
