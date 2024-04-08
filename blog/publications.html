@@ -13,9 +13,11 @@ permalink: /publications/
 
 <div class="row">
 	<div class="col-lg-10 col-lg-offset-3">
+		{% for num in range(2023, 2020) %}
 		<div class="row">
 			{% for paper in site.data.lab.publications %}
 			{% assign loopindex = forloop.index | modulo: 2 %}
+			{% if num == paper.year %}
 			<div class="col-lg-10 mt-lg-offset-4">
 				<div class="row">
 					<h4 style="font-size:20px">
@@ -28,10 +30,11 @@ permalink: /publications/
 					<p style="font-size:16px">
 					{{ paper.author }},
 					<em>{{ paper.conference }}</em>,
-					{{ paper.date }}<br>
+					{{ paper.mont }} {{ paper.year }}<br>
 					</p>
 				</div>
 			</div>
+			{% endif %}
 			{% endfor %}
 		</div>
 		<hr/>
