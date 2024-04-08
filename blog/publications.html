@@ -15,7 +15,7 @@ permalink: /publications/
 	<div class="col-lg-10 col-lg-offset-3">
 		{% for num in range(2023, 2020, -1) %}
 		<div class="row">
-			<h3 style="font-size:30px;"><U>{{ num }}<br></U></h3>
+			<h3 style="font-size:30px;"><U>2023<br></U></h3>
 			{% for paper in site.data.lab.publications %}
 			{% assign loopindex = forloop.index | modulo: 2 %}
 			{% if num.equals(paper.yea)r %}
