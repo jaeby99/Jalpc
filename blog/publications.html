@@ -13,9 +13,7 @@ permalink: /publications/
 
 <div class="row">
 	<div class="col-lg-10 col-lg-offset-3">
-		{% for(i=2023;i>2019;i--) %}
 		<div class="row">
-			<h3 style="font-size:30px;"><U>2023<br></U></h3>
 			{% for paper in site.data.lab.publications %}
 			{% assign loopindex = forloop.index | modulo: 2 %}
 			{% if num.equals(paper.yea)r %}
@@ -39,6 +37,5 @@ permalink: /publications/
 			{% endfor %}
 		</div>
 		<hr/>
-		{# endfor %}
 	</div>
 </div>
