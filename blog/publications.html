@@ -13,7 +13,7 @@ permalink: /publications/
 
 <div class="row">
 	<div class="col-lg-10 col-lg-offset-3">
-		{% for num in range(2023, 2020) %}
+		{% for num in range(2023, 2020, -1) %}
 		<div class="row">
 			{% for paper in site.data.lab.publications %}
 			{% assign loopindex = forloop.index | modulo: 2 %}
