@@ -13,9 +13,9 @@ permalink: /publications/
 
 <div class="row">
 	<div class="col-lg-10 col-lg-offset-3">
-		{% for i in 2023| down_to:2020 %}
+		{% for i in 3 %}
 		<div class="row">
-			<h3 style="font-siez:30px"><U>{{ i }}</U></h3>
+			<h3 style="font-siez:30px"><U>{{ 2020+i }}</U></h3>
 			{% for paper in site.data.lab.publications %}
 			{% assign loopindex = forloop.index | modulo: 2 %}
 			<div class="col-lg-10 mt-lg-offset-4" style="padding-bottom:40px">
