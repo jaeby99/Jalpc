@@ -13,10 +13,38 @@
   month: June
   year: 2023
   ref: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10155408
-
+  
 - title: Key Reduction in Multi-Key and Threshold Multi-Key Homomorphic Encryptions by Reusing Error
   conference: IEEE Access
   author: Zahyun Koo, Joon-Woo Lee*, Jong-Seon No*, and Young-Sik Kim
   month: May
   year: 2023
   ref: https://ieeexplore.ieee.org/document/10129910
+
+- title: Low-complexity deep convolutional neural networks on fully homomorphic encryption using multiplexed parallel convolutions
+  conference: ICML 2022
+  author: Eunsang Lee, Joon-Woo Lee*, Junghyun Lee, Yongjune Kim, Young-Sik Kim, Jong-Seon No, and Wooseok Choi
+  month: July
+  year: 2022
+  ref: 
+
+- title: High-precision bootstrapping for approximate homomorphic encryption by error variance minimization
+  conference: EUROCRYPT 2022
+  author: Yongwoo Lee, Joon-Woo Lee, Young-Sik Kim*, Yongjune Kim, Hyungchul Kang, and Jong-Seon No
+  month: June
+  year: 2022
+  ref: 
+
+- title: Privacy-preserving machine learning with fully homomorphic encryption for deep neural network
+  conference: IEEE Access
+  author: Joon-Woo Lee(co-first with Hyungchul Kang), Hyungchul Kang, Yongwoo Lee, Wooseok Choi, Jieun Eom, Maxim Deryabin, Eunsang Lee, Junghyun Lee, Donghoon Yoo, Young-Sik Kim*, and Jong-Seon No
+  month: March
+  year: 2022
+  ref:
+
+- title: Optimization of homomorphic comparison algorithm on RNS-CKKS scheme
+  conference: IEEE Access
+  author: Eunsang Lee, Joon-Woo Lee, Young-Sik Kim*, and Jong-Seon No
+  month: March
+  year: 2022
+  ref:
