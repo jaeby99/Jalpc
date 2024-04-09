@@ -15,8 +15,8 @@ permalink: /publications/
 	<div class="col-lg-10 col-lg-offset-3">
 		<div class="row">
 			{% for paper in site.data.lab.publications %}
-			{% if paper.year == 2023 %} 
-				<h3 style="font-size:30px"><U>2023</U></h3>
+			{% if paper.set == 1 %} 
+			<h3 style="font-size:30px"><U>{{ paper.year  }}</U></h3>
 			{% endif %}
 			{% assign loopindex = forloop.index | modulo: 2 %}
 			<div class="col-lg-10 mt-lg-offset-4" style="padding-bottom:40px">

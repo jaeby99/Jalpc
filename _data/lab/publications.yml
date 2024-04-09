@@ -6,6 +6,7 @@
   month: Decembere
   year: 2023
   ref: https://eprint.iacr.org/2022/532.pdf
+  set: 1
 
 - title: Precise Approximation of Convolutional Neural Networks for Homomorphically Encrypted Data
   conference: IEEE Access
@@ -13,13 +14,15 @@
   month: June
   year: 2023
   ref: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10155408
-  
+  set: 0
+
 - title: Key Reduction in Multi-Key and Threshold Multi-Key Homomorphic Encryptions by Reusing Error
   conference: IEEE Access
   author: Zahyun Koo, Joon-Woo Lee*, Jong-Seon No*, and Young-Sik Kim
   month: May
   year: 2023
   ref: https://ieeexplore.ieee.org/document/10129910
+  set: 0
 
 - title: Low-complexity deep convolutional neural networks on fully homomorphic encryption using multiplexed parallel convolutions
   conference: ICML 2022
@@ -27,6 +30,7 @@
   month: July
   year: 2022
   ref: 
+  set: 1
 
 - title: High-precision bootstrapping for approximate homomorphic encryption by error variance minimization
   conference: EUROCRYPT 2022
@@ -34,6 +38,7 @@
   month: June
   year: 2022
   ref: 
+  set: 0
 
 - title: Privacy-preserving machine learning with fully homomorphic encryption for deep neural network
   conference: IEEE Access
@@ -41,6 +46,7 @@
   month: March
   year: 2022
   ref:
+  set: 0
 
 - title: Optimization of homomorphic comparison algorithm on RNS-CKKS scheme
   conference: IEEE Access
@@ -48,3 +54,4 @@
   month: March
   year: 2022
   ref:
+  set: 0
