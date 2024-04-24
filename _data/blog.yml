@@ -6,6 +6,9 @@
 - name: People
   href: /people/
 
+- name: Courses
+  href: /courses/
+
 - name: Publications
   href: /publications/
 
@@ -14,6 +17,3 @@
 
 - name: Projects
   href: /projects/
-
-- name: Patents
-  href: /patents/
