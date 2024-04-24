@@ -3,8 +3,8 @@
   href: /professor/
 
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
-- name: Members
-  href: /members/
+- name: People
+  href: /people/
 
 - name: Publications
   href: /publications/
