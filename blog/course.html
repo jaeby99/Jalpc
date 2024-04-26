@@ -13,9 +13,10 @@ permalink: /courses/
 <div class="container">
 	{% for course in site.data.lab.courses %}
 	<div class="row">
-		<h2 style="font-size:26px"><strong>{{ course.title }}</strong><br/></h2>
+		<h2 style="font-size:30px"><strong>{{ course.title }}</strong><br/></h2>
 		<hr/>
 		<li style="font-size: 16px;">{{ course.semester }}</li>
+		<br/>
 	</div>
 	<br/>
 	{% endfor %}
