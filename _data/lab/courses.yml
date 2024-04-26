@@ -1,66 +1,25 @@
 # course section data
 
 - title: Software Project
-  semester: Spring
-  year: 2024
-  set: 1
+  semester: (Spring 2024), (Spring 2023)
 
 - title: Creative Design
-  semester: Spring
-  year: 2024
-  set: 0
+  semester: (Spring 2024)
 
-- title: Capstone Design(2)
-  semester: Spring
-  year: 2024
-  set: 0
+- title: Capstone Design
+  semester: (Spring 2024), (Fall 2023), (Spring 2023)
 
 - title: Application Development For Mobile Computer
-  semester: Fall
-  year: 2023
-  set: 1
-
-- title: Capstone Design(1)
-  semester: Fall
-  year: 2023
-  set: 0
+  semester: (Fall 2023), (Fall 2022)
 
 - title: Programming
-  semester: Fall
-  year: 2023
-  set: 0
-
-- title: Topics in Modern Cryptography (Graduate)
-  semester: Fall
-  year: 2023
-  set: 0
-
-- title: Software Project
-  semester: Spring
-  year: 2023
-  set: 1
-
-- title: Capstone Design(2)
-  semester: Spring
-  year: 2023
-  set: 0
+  semester: (Fall 2023), (Fall 2022)
 
 - title: Probability And Statistics
-  semester: Spring
-  year: 2023
-  set: 0
-
-- title: Application Development For Mobile Computer
-  semester: Fall
-  year: 2022
-  set: 1
+  semester: (Spring 2023)
 
 - title: Computer Architecture
-  semester: Fall
-  year: 2022
-  set: 0
+  semester: (Fall 2022)
 
-- title: Programming
-  semester: Fall
-  year: 2022
-  no: 0
+- title: Topics in Modern Cryptography (Graduate)
+  semester: (Fall 2023)
