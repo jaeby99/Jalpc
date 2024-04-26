@@ -10,26 +10,20 @@ permalink: /courses/
 		<h1 style="padding-bottom:50px">Courses</h1>
 	</div>
 </div>
-<div class="row">
-	<div class="col-lg-10 col-lg-offset-3">
-		<div class="row">
-			{% for course in site.data.lab.courses %}
-			{% if course.set == 1 %}
-			<div class="col-lg-10 mt-lg-offset-3" style="padding-bottom:20px">
-				<div class="row">
-					<h3 style="font-size:32px"><U>{{ course.semester }}</U></h3>
-				</div>
-				<div class="row">
-					<p style="font-size:24px"><em>{{ course.year }}</em></p>
-				</div>
-			</div>
-			{% endif %}
-			<div class="col-lg-10 mt-lg-offset-4" style="padding-bottom: 30px;">
-				<p sytle="font-size:20px;">
-					⏩ {{ course.title }}
-				</p>
-			</div>
-			{% endfor %}
+<div class="container">
+	{% for course in site.data.lab.courses %}
+	<div class="row">
+		{% if course.set == 1 %}
+		<div class="col-1">
+			<h3 style="font-size:32px"><U>{{ course.semester }}</U></h3>
+		</div>
+		<div class="col">
+			<p style="font-size:24px"><em>{{ course.year }}</em></p>
+		</div>
+		{% endif %}
+		<div class="col-lg-10 mt-lg-offset-4" style="padding-bottom: 30px;">
+			<p sytle="font-size:20px">⏩ {{ course.title }}</p>
 		</div>
 	</div>
+	{% endfor %}
 </div>
