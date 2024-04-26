@@ -10,3 +10,12 @@ permalink: /researches/
 		<h1 style="padding-bottom:50px">Researches</h1>
 	</div>
 </div>
+<div class="container">
+	{% for research in site.data.lab.researches %}
+	<div class="row" style="padding-bottom: 30px;">
+		<h1 style="font-size:32px">{{ research.title }}</h1>
+		<hr/>
+		<br/>
+	</div>
+	{% endfor %}
+</div>
