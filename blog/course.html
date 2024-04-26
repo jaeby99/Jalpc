@@ -14,7 +14,7 @@ permalink: /courses/
 	{% for course in site.data.lab.courses %}
 	<div class="row">
 		{% if course.set == 1 %}
-		<div class="col-1">
+		<div class="col-1" style="align-items: start;">
 			<p style="font-size:32px"><U>{{ course.semester }}</U></p>
 			<p style="font-size:24px"><em>{{ course.year }}</em></p>
 		</div>
