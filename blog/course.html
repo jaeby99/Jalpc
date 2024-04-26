@@ -14,14 +14,14 @@ permalink: /courses/
 	<div class="col-lg-10 col-lg-offset-3">
 		<div class="row">
 			{% for course in site.data.lab.courses %}
-			{% if course.no == 1 %}
+			{% if course.set == 1 %}
 			<div class="col-lg-10 mt-lg-offset-3" style="padding-bottom:20px">
 				<h3 style="font-size:32px"><U>{{ course.semester }}</U> <em>{{ course.year }}</em></h3>
 			</div>
 			{% endif %}
 			<div class="col-lg-10 mt-lg-offset-4" style="padding-bottom: 40px;">
 				<p sytle="font-size:16px">
-					&#xU23E9 {{ course.title }}
+					&#xU23E9; {{ course.title }}
 				</p>
 			</div>
 			{% endfor %}
