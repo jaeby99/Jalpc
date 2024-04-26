@@ -16,11 +16,12 @@ permalink: /courses/
 			{% for course in site.data.lab.courses %}
 			{% if course.set == 1 %}
 			<div class="col-lg-10 mt-lg-offset-3" style="padding-bottom:20px">
-				<h3 style="font-size:32px"><U>{{ course.semester }}</U> <em>{{ course.year }}</em></h3>
+				<h3 style="font-size:32px"><U>{{ course.semester }}</U></h3>
+				<p style="font-size:24px"><em>{{ course.year }}</em></p>
 			</div>
 			{% endif %}
 			<div class="col-lg-10 mt-lg-offset-4" style="padding-bottom: 40px;">
-				<p sytle="font-size:16px">
+				<p sytle="font-size:20px">
 					⏩ {{ course.title }}
 				</p>
 			</div>
