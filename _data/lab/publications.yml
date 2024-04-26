@@ -55,3 +55,43 @@
   year: 2022
   ref:
   set: 0
+
+- title: Improved reduction between SIS problems over structured lattices
+  conference: IEEE Access
+  author: Zahyun Koo, Yongwoo Lee, Joon-Woo Lee, Young-Sik Kim*, and Jong-Seon No
+  month: November
+  year: 2021
+  ref:
+  set: 1
+
+- title: High-precision bootstrapping of RNS-CKKS homomorphic encryption using optimal minimax polynomial approximation and inverse sine function
+  conference: EUROCRYPT
+  author: Joon-Woo Lee*, Eunsang Lee, Yongwoo Lee, Young-Sik Kim, and Jong-Seon No
+  month: October
+  year: 2021
+  ref:
+  set: 0
+
+- title: Analysis of modified shell sort for fully homomorphic encryption
+  conference: IEEE Access
+  author: Joon-Woo Lee, Young-Sik Kim*, and Jong-Seon No
+  month: Semptember
+  year: 2021
+  ref:
+  set: 0
+
+- title: Near-optimal polynomial for modulus reduction using L2-norm for approximate homomorphic encryption
+  conference: IEEE Access
+  author: Yongwoo Lee, Joon-Woo Lee, Young-Sik Kim*, and Jong-Seon No
+  month: August
+  year: 2020
+  ref:
+  set: 1
+
+- title: Improvement of extended least difference greedy clique-cover algorithm for index coding
+  conference: ICTC 2018
+  author: Joon-Woo Lee, Jae-Won Kim*, and Jong-Seon No
+  month: October
+  year: 2018
+  ref:
+  set: 1
