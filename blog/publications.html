@@ -17,7 +17,7 @@ permalink: /publications/
 		<div class="row">
 			{% if paper.set == 1 %} 
 			<div class="col mt-lg-offset-2" style="padding-bottom:20px">
-				<h3 style="font-size:36px"><U>{{ paper.year }}</U></h3>
+				<h3 style="font-size:40px"><U>{{ paper.year }}</U></h3>
 			</div>
 			{% endif %}
 			{% assign loopindex = forloop.index | modulo: 2 %}
@@ -37,6 +37,7 @@ permalink: /publications/
 					</p>
 				</div>
 			</div>
+			<hr/>
 		</div>
 		{% endfor %}
 	</div>
