@@ -12,17 +12,17 @@ permalink: /projects/
 </div>
 
 <div class="container">
+	{% for project in stie.data.lab.projects %}
 	<div class="row">
-		{% for project in stie.data.lab.projects %}
+		{% if project.no == 1 %}
 		<div class="col col-lg-offset-3" style="padding-top: 50px">
-			{% if project.no == 1 %}
 			<h2 style="font-size: 40px"><U>{{ project.status }}</U></h2>
-			{% endif %}
 		</div>
+		{% endif %}
 		<div class="col-lg-10 col-lg-offset-3">
 			<h4 style="font-size: 20px"><strong>{{ project.title }}</strong></h4>
 			<p style="font-size: 16px">{{ project.date }}<br><em>{{ project.institute }}</em></p>
 		</div>
-		{% endfor %}
 	</div>
+	{% endfor %}
 </div>
