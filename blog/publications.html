@@ -15,12 +15,12 @@ permalink: /publications/
 	{% for paper in site.data.lab.publications %}
 	<div class="row">
 		{% if paper.set == 1 %} 
-		<div class="col mt-lg-offset-4" style="padding-bottom:20px">
+		<div class="col mt-lg-offset-6" style="padding-bottom:20px">
 			<h3 style="font-size:40px"><U>{{ paper.year }}</U></h3>
 		</div>
 		{% endif %}
 		{% assign loopindex = forloop.index | modulo: 2 %}
-		<div class="col-lg-16 mt-lg-offset-4" style="padding-bottom: 20px">
+		<div class="col-lg-16 mt-lg-offset-6" style="padding-bottom: 20px">
 			<h4 style="font-size:20px">
 				<a href="{{ paper.ref }}">
 					<U>
