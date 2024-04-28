@@ -14,14 +14,15 @@ permalink: /projects/
 	{% for project in site.data.lab.projects %}
 	<div class="row">
 		{% if project.order == 1 %}
-		<div class="col mt-lg-offset-2" style="padding-top: 50px">
-			<h2 style="font-size: 40px"><U>{{ project.status }}</U></h2>
+		<div class="col mt-lg-offset-6" style="padding-bottom: 20px">
+			<h3 style="font-size: 40px"><U>{{ project.status }}</U></h3>
 		</div>
 		{% endif %}
-		<div class="col-lg-16 mt-lg-offset-2">
+		<div class="col-lg-16 mt-lg-offset-6" style-="padding-bottom: 20px">
 			<h4 style="font-size: 20px"><strong>{{ project.order }}:{{ project.title }}</strong></h4>
 			<p style="font-size: 16px">{{ project.date }}<br><em>{{ project.institute }}</em></p>
 		</div>
 	</div>
+	<hr/>
 	{% endfor %}
 </div>
