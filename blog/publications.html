@@ -11,34 +11,29 @@ permalink: /publications/
 	</div>
 </div>
 
-<div class="row">
-	<div class="col col-lg-offset-3">
+<div class="container">
+	<div class="row">
 		{% for paper in site.data.lab.publications %}
-		<div class="row" style="padding-top: 50px">
-			{% if paper.set == 1 %} 
-			<div class="col mt-lg-offset-2" style="padding-bottom:20px">
-				<h3 style="font-size:40px"><U>{{ paper.year }}</U></h3>
-			</div>
-			{% endif %}
-			{% assign loopindex = forloop.index | modulo: 2 %}
-			<div class="col-lg-10 mt-lg-offset-4">
-				<div class="row">
-					<h4 style="font-size:20px">
-						<a href="{{ paper.ref }}">
-							<U>
-								<strong>{{ paper.title }}</strong>
-							</U>
-						</a>
-					</h4>
-					<p style="font-size:16px">
-					{{ paper.author }},
-					<em>{{ paper.conference }}</em>,
-					{{ paper.month }} {{ paper.year }}
-					</p>
-				</div>
-			</div>
+		{% if paper.set == 1 %} 
+		<div class="col mt-lg-offset-2" style="padding-bottom:20px">
+			<h3 style="font-size:40px"><U>{{ paper.year }}</U></h3>
 		</div>
-		<hr/>
+		{% endif %}
+		{% assign loopindex = forloop.index | modulo: 2 %}
+		<div class="col-lg-10 mt-lg-offset-4">
+			<h4 style="font-size:20px">
+				<a href="{{ paper.ref }}">
+					<U>
+						<strong>{{ paper.title }}</strong>
+					</U>
+				</a>
+			</h4>
+			<p style="font-size:16px">
+			{{ paper.author }},
+			<em>{{ paper.conference }}</em>,
+			{{ paper.month }} {{ paper.year }}
+			</p>
+		</div>
 		{% endfor %}
 	</div>
 </div>
