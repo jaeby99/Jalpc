@@ -13,13 +13,13 @@ permalink: /projects/
 <div class="container">
 	{% for project in site.data.lab.projects %}
 	<div class="row">
-		{% if project.no == 1 %}
+		{% if project.order == 1 %}
 		<div class="col col-lg-offset-3" style="padding-top: 50px">
 			<h2 style="font-size: 40px"><U>{{ project.status }}</U></h2>
 		</div>
 		{% endif %}
 		<div class="col-lg-10 col-lg-offset-3">
-			<h4 style="font-size: 20px"><strong>{{ project.no }}:{{ project.title }}</strong></h4>
+			<h4 style="font-size: 20px"><strong>{{ project.order }}:{{ project.title }}</strong></h4>
 			<p style="font-size: 16px">{{ project.date }}<br><em>{{ project.institute }}</em></p>
 		</div>
 	</div>
