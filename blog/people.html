@@ -11,84 +11,26 @@ permalink: /people/
 	</div>
 </div>
 
-<div class="row">
-	<div class="col-lg-8 col-lg-offset-3">
-		<div class="row">
-			<h3 style="font-size:30px;"><U>Graduate Students<br></U></h3>
-			<div class="col mt-lg-offset-4" style="display:flex; align-items: start;">
-				<img src="/Paiclab/static/assets/img/unggiyeo.jpeg" width=165px, height=220px style="margin-right:30px;" alt=""></img>
-				<div class="col-lg-6">
-					<div class="row">
-						<h4 style="font-size:28px"><br>Unggi Yeo(여웅기)<br></h4>
-					</div>
-					<div class="row" style="padding-top:28px;">
-						<p style="font-size:16px"><br/> M.S Student ( 2023.08 ~ )<br> Research Area: Federated Learning<br> Email: sam1705@cau.ac.kr</p>
-					</div>
-				</div>
-			</div>
-			<hr/>
-			<div class="col mt-lg-offset-4" style="display:flex; align-items: start;">
-				<img src="/Paiclab/static/assets/img/jaeyoungbae.jpeg" width=165px, height=220px style="margin-right:30px;" alt=""></img>
-				<div class="col-lg-6">
-					<div class="row">
-						<h4 style="font-size:28px"><br>Jaeyoung Bae(배재영)<br></h4>
-					</div>
-					<div class="row" style="padding-top:28px;">
-						<p style="font-size:16px"><br/> M.S Studennt ( 2024.02 ~ )<br> Research Area: Lattice Attack Algorithm<br> Email: qo0102@cau.ac.kr</p>
-					</div>
-				</div>
-			</div>
+<div class="container">
+	{% for person in site.data.lab.people %}
+	<div class="row">
+		{% if person.order == 1 %}
+		<div class="col mt-lg-offset-6" style="padding-bottom:20px">
+			<h3 style="font-size:36px"><U>{{ person.degree }}</U></h3>
 		</div>
-		<hr/>
-		<div class="row">
-			<h3 style="font-size:30px"><U>Undergraduate Students<br></U></h3>
-			<div class="col mt-lg-offset-4" style="display:flex; align-items: start;">
-				<img src="/Paiclab/static/assets/img/shadow.png" width=165px, height=220px style="margin-right:30px;" alt=""></img>
-				<div class="col-lg-6">
-					<div class="row">
-						<h4 style="font-size:28px"><br>Byeongseo Min(민병서)<br></h4>
-					</div>
-					<div class-"row" style="padding-top:28px">
-						<p style="font-size:16px"><br/> B.S Student ( 2023.01 ~ )<br> Reasearch Area: PPML <br> Email: mbyeongseo@gmail.com </p>
-					</div>
+		{% endif %}
+		<div class="col-lg-16 mt-lg-offset-6" style-="padding-bottom: 20px">
+			<img src=person.img width=165px, height=220px style="margin: right 30px;", alt=""></img>
+			<div class="col-lg-8">
+				<div class="row">
+					<h4 style="font-size:28px"><br>{{ person.name }}<br></h4>
 				</div>
-			</div>
-			<hr/>
-			<div class="col mt-lg-offset-4" style="display:flex; align-items: start;">
-				<img src="/Paiclab/static/assets/img/shadow.png" width=165px, height=220px style="margin-right:30px;" alt=""></img>
-				<div class="col-lg-6">
-					<div class="row">
-						<h4 style="font-size:28px"><br>Dongjin Park(박동진)<br></h4>
-					</div>
-					<div class-"row" style="padding-top:28px">
-						<p style="font-size:16px"><br/> B.S Student ( 2023.08 ~ )<br> Reasearch Area: PPML in Transformer <br> Email: thrudgelmir@cau.ac.kr </p>
-					</div>
-				</div>
-			</div>
-			<hr/>
-			<div class="col mt-lg-offset-4" style="display:flex; align-items: start;">
-				<img src="/Paiclab/static/assets/img/cha.jpeg" width=165px, height=220px style="margin-right:30px;" alt=""></img>
-				<div class="col-lg-6">
-					<div class="row">
-						<h4 style="font-size:28px"><br>Gyeongwon Cha(차경원)<br></h4>
-					</div>
-					<div class-"row" style="padding-top:28px">
-						<p style="font-size:16px"><br/> B.S Student ( 2024.01 ~ )<br> Reasearch Area: Multi-key HE, ZKP  <br> Email: dbfldk20j@gmail.com</p>
-					</div>
-				</div>
-			</div>
-			<hr/>
-			<div class="col mt-lg-offset-4" style="display:flex; align-items: start;">
-				<img src="/Paiclab/static/assets/img/dahee.jpeg" width=165px, height=220px style="margin-right:30px;" alt=""></img>
-				<div class="col-lg-6">
-					<div class="row">
-						<h4 style="font-size:28px"><br>Dahee Yun(윤다희)<br></h4>
-					</div>
-					<div class-"row" style="padding-top:28px">
-						<p style="font-size:16px"><br/> B.S Student ( 2024.01 ~ )<br> Reasearch Area: Signal Processing <br> Email: dbsekgml518@cau.ac.kr </p>
-					</div>
+				<div class="row" style="padding-top:28px;">
+					<p style="font-size:16px"><br/> {{ person.date }}<br> Research Area: {{ person.research }}<br> Email: {{ person.email }}</p>
 				</div>
 			</div>
 		</div>
 	</div>
+	<hr/>
+	{% endfor %}
 </div>

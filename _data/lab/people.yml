@@ -1,0 +1,49 @@
+# people section data
+
+- name: Unggi Yeo (여웅기)
+  degree: M.S Student
+  date: 2023.09 ~ 
+  research: Federated Learning
+  email: sam1705@cau.ac.kr
+  img: "/Paiclab/static/assets/img/unggiyeo.jpeg"
+  order: 1
+
+- name: Jaeyoung Bae (배재영)
+  degree: M.S Student
+  date: 2024.03 ~ 
+  research: Lattice Attack Algorithm
+  email: qo0102@cau.ac.kr
+  img: "/Paiclab/static/assets/img/jaeyoungbae.jpeg"
+  order: 0
+
+- name: Byeongseo Min (민병서)
+  degree: B.S Student
+  date: 2023.03 ~ 
+  research: Privacy-Preserving Machine Learning
+  email: smbyeongseo@gmail.com
+  img: "/Paiclab/static/assets/img/shadow.png"
+  order: 1
+
+- name: Dongjin Park (박동진)
+  degree: B.S Student
+  date: 2023.09 ~ 
+  research: Privacy-Preserving Machine Learning in Transformer
+  email: thrudgelmir@cau.ac.kr
+  img: "/Paiclab/static/assets/img/shadow.png"
+  order: 0
+
+- name: Gyeongwon Cha (차경원)
+  degree: B.S Student
+  date: 2024.01 ~ 
+  research: Multi-key HE, ZKP
+  email: dbfldk20j@gmail.com
+  img: "/Paiclab/static/assets/img/cha.jpeg"
+  order: 0
+
+- name: Dahee Yun (윤다희)
+  degree: B.S Student
+  date: 2024.01 ~ 
+  research: Signal Processing
+  email: dbsekgml518@cau.ac.kr
+  img: "/Paiclab/static/assets/img/dahee.jpeg"
+  order: 0
