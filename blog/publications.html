@@ -12,8 +12,8 @@ permalink: /publications/
 </div>
 
 <div class="container">
+	{% for paper in site.data.lab.publications %}
 	<div class="row">
-		{% for paper in site.data.lab.publications %}
 		{% if paper.set == 1 %} 
 		<div class="col mt-lg-offset-2" style="padding-bottom:20px">
 			<h3 style="font-size:40px"><U>{{ paper.year }}</U></h3>
@@ -34,6 +34,6 @@ permalink: /publications/
 			{{ paper.month }} {{ paper.year }}
 			</p>
 		</div>
-		{% endfor %}
 	</div>
+	{% endfor %}
 </div>
