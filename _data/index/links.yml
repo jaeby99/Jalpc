@@ -1,18 +1,12 @@
 # links section data
-- last_name: Email
-  first_name:
+- name: Email
   desc: jwlee2815@cau.ac.kr
-  website:
-  email: 
+  website: https://sites.google.com/view/paiclab
 
-- last_name: Phone
-  first_name: 
+- name: Phone
   desc: (+82) 2 - 820 - 5600
   website: 
-  email:
 
-- last_name: Location
-  first_name: 
+- name: Location
   desc: Room 415-1, Building 208, Chung-Ang University
-  website: 
-  email: 
+  website: https://cse.cau.ac.kr/main.php
