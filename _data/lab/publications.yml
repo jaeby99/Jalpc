@@ -5,7 +5,7 @@
   author: Joon-Woo Lee, Eunsang Lee*, Young-Sik Kim*, Jong-Seon No
   month: December
   year: 2023
-  ref: https://eprint.iacr.org/2022/532.pdf
+  ref: https://eprint.iacr.org/2022/532
   set: 1
 
 - title: Precise Approximation of Convolutional Neural Networks for Homomorphically Encrypted Data
@@ -13,7 +13,7 @@
   author: Junghyun Lee, Eunsang Lee*, Joon-Woo Lee*, Yongjune Kim, Young-Sik Kim and Jong-Seon No
   month: June
   year: 2023
-  ref: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10155408
+  ref: https://ieeexplore.ieee.org/document/10155408
   set: 0
 
 - title: Key Reduction in Multi-Key and Threshold Multi-Key Homomorphic Encryptions by Reusing Error
@@ -29,7 +29,7 @@
   author: Eunsang Lee, Joon-Woo Lee*, Junghyun Lee, Yongjune Kim, Young-Sik Kim, Jong-Seon No, and Wooseok Choi
   month: July
   year: 2022
-  ref: 
+  ref: https://proceedings.mlr.press/v162/lee22e.html
   set: 1
 
 - title: High-precision bootstrapping for approximate homomorphic encryption by error variance minimization
@@ -37,7 +37,7 @@
   author: Yongwoo Lee, Joon-Woo Lee, Young-Sik Kim*, Yongjune Kim, Hyungchul Kang, and Jong-Seon No
   month: June
   year: 2022
-  ref: 
+  ref: https://eprint.iacr.org/2020/1549
   set: 0
 
 - title: Privacy-preserving machine learning with fully homomorphic encryption for deep neural network
@@ -45,7 +45,7 @@
   author: Joon-Woo Lee(co-first with Hyungchul Kang), Hyungchul Kang, Yongwoo Lee, Wooseok Choi, Jieun Eom, Maxim Deryabin, Eunsang Lee, Junghyun Lee, Donghoon Yoo, Young-Sik Kim*, and Jong-Seon No
   month: March
   year: 2022
-  ref:
+  ref: https://ieeexplore.ieee.org/document/9734024
   set: 0
 
 - title: Optimization of homomorphic comparison algorithm on RNS-CKKS scheme
@@ -53,7 +53,7 @@
   author: Eunsang Lee, Joon-Woo Lee, Young-Sik Kim*, and Jong-Seon No
   month: March
   year: 2022
-  ref:
+  ref: https://ieeexplore.ieee.org/document/9724238
   set: 0
 
 - title: Improved reduction between SIS problems over structured lattices
@@ -61,7 +61,7 @@
   author: Zahyun Koo, Yongwoo Lee, Joon-Woo Lee, Young-Sik Kim*, and Jong-Seon No
   month: November
   year: 2021
-  ref:
+  ref: https://ieeexplore.ieee.org/document/9615083
   set: 1
 
 - title: High-precision bootstrapping of RNS-CKKS homomorphic encryption using optimal minimax polynomial approximation and inverse sine function
@@ -69,7 +69,7 @@
   author: Joon-Woo Lee*, Eunsang Lee, Yongwoo Lee, Young-Sik Kim, and Jong-Seon No
   month: October
   year: 2021
-  ref:
+  ref: https://eprint.iacr.org/2020/552
   set: 0
 
 - title: Analysis of modified shell sort for fully homomorphic encryption
@@ -77,7 +77,7 @@
   author: Joon-Woo Lee, Young-Sik Kim*, and Jong-Seon No
   month: Semptember
   year: 2021
-  ref:
+  ref: https://ieeexplore.ieee.org/document/9530524
   set: 0
 
 - title: Near-optimal polynomial for modulus reduction using L2-norm for approximate homomorphic encryption
@@ -85,7 +85,7 @@
   author: Yongwoo Lee, Joon-Woo Lee, Young-Sik Kim*, and Jong-Seon No
   month: August
   year: 2020
-  ref:
+  ref: https://ieeexplore.ieee.org/document/9159551
   set: 1
 
 - title: Improvement of extended least difference greedy clique-cover algorithm for index coding
@@ -93,5 +93,5 @@
   author: Joon-Woo Lee, Jae-Won Kim*, and Jong-Seon No
   month: October
   year: 2018
-  ref:
+  ref: https://ieeexplore.ieee.org/document/8539615
   set: 1
