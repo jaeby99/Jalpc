@@ -10,7 +10,7 @@
 
 - title: Precise Approximation of Convolutional Neural Networks for Homomorphically Encrypted Data
   conference: IEEE Access
-  author: Junghyun Lee, Eunsang Lee*, Joon-Woo Lee*, Yongjune Kim, Young-Sik Kim and Jong-Seon No
+  author: Junghyun Lee, Eunsang Lee*, <stonrg>Joon-Woo Lee*</strong>, Yongjune Kim, Young-Sik Kim and Jong-Seon No
   month: June
   year: 2023
   ref: https://ieeexplore.ieee.org/document/10155408
@@ -18,7 +18,7 @@
 
 - title: Key Reduction in Multi-Key and Threshold Multi-Key Homomorphic Encryptions by Reusing Error
   conference: IEEE Access
-  author: Zahyun Koo, Joon-Woo Lee*, Jong-Seon No*, and Young-Sik Kim
+  author: Zahyun Koo, <stonrg>Joon-Woo Lee*</strong>, Jong-Seon No*, and Young-Sik Kim
   month: May
   year: 2023
   ref: https://ieeexplore.ieee.org/document/10129910
@@ -26,7 +26,7 @@
 
 - title: Low-complexity deep convolutional neural networks on fully homomorphic encryption using multiplexed parallel convolutions
   conference: ICML 2022
-  author: Eunsang Lee, Joon-Woo Lee*, Junghyun Lee, Yongjune Kim, Young-Sik Kim, Jong-Seon No, and Wooseok Choi
+  author: Eunsang Lee, <stonrg>Joon-Woo Lee*</strong>, Junghyun Lee, Yongjune Kim, Young-Sik Kim, Jong-Seon No, and Wooseok Choi
   month: July
   year: 2022
   ref: https://proceedings.mlr.press/v162/lee22e.html
@@ -34,7 +34,7 @@
 
 - title: High-precision bootstrapping for approximate homomorphic encryption by error variance minimization
   conference: EUROCRYPT 2022
-  author: Yongwoo Lee, Joon-Woo Lee, Young-Sik Kim*, Yongjune Kim, Hyungchul Kang, and Jong-Seon No
+  author: Yongwoo Lee, <strong>Joon-Woo Lee</strong>, Young-Sik Kim*, Yongjune Kim, Hyungchul Kang, and Jong-Seon No
   month: June
   year: 2022
   ref: https://eprint.iacr.org/2020/1549
@@ -42,7 +42,7 @@
 
 - title: Privacy-preserving machine learning with fully homomorphic encryption for deep neural network
   conference: IEEE Access
-  author: Joon-Woo Lee(co-first with Hyungchul Kang), Hyungchul Kang, Yongwoo Lee, Wooseok Choi, Jieun Eom, Maxim Deryabin, Eunsang Lee, Junghyun Lee, Donghoon Yoo, Young-Sik Kim*, and Jong-Seon No
+  author: <stonrg>Joon-Woo Lee</strong>(co-first with Hyungchul Kang), Hyungchul Kang, Yongwoo Lee, Wooseok Choi, Jieun Eom, Maxim Deryabin, Eunsang Lee, Junghyun Lee, Donghoon Yoo, Young-Sik Kim*, and Jong-Seon No
   month: March
   year: 2022
   ref: https://ieeexplore.ieee.org/document/9734024
@@ -50,7 +50,7 @@
 
 - title: Optimization of homomorphic comparison algorithm on RNS-CKKS scheme
   conference: IEEE Access
-  author: Eunsang Lee, Joon-Woo Lee, Young-Sik Kim*, and Jong-Seon No
+  author: Eunsang Lee, <stonrg>Joon-Woo Lee</strong>, Young-Sik Kim*, and Jong-Seon No
   month: March
   year: 2022
   ref: https://ieeexplore.ieee.org/document/9724238
@@ -58,7 +58,7 @@
 
 - title: Improved reduction between SIS problems over structured lattices
   conference: IEEE Access
-  author: Zahyun Koo, Yongwoo Lee, Joon-Woo Lee, Young-Sik Kim*, and Jong-Seon No
+  author: Zahyun Koo, Yongwoo Lee, <stonrg>Joon-Woo Lee</strong>, Young-Sik Kim*, and Jong-Seon No
   month: November
   year: 2021
   ref: https://ieeexplore.ieee.org/document/9615083
@@ -66,7 +66,7 @@
 
 - title: High-precision bootstrapping of RNS-CKKS homomorphic encryption using optimal minimax polynomial approximation and inverse sine function
   conference: EUROCRYPT
-  author: Joon-Woo Lee*, Eunsang Lee, Yongwoo Lee, Young-Sik Kim, and Jong-Seon No
+  author: <stonrg>Joon-Woo Lee*</strong>, Eunsang Lee, Yongwoo Lee, Young-Sik Kim, and Jong-Seon No
   month: October
   year: 2021
   ref: https://eprint.iacr.org/2020/552
@@ -74,7 +74,7 @@
 
 - title: Analysis of modified shell sort for fully homomorphic encryption
   conference: IEEE Access
-  author: Joon-Woo Lee, Young-Sik Kim*, and Jong-Seon No
+  author: <stonrg>Joon-Woo Lee</strong>, Young-Sik Kim*, and Jong-Seon No
   month: Semptember
   year: 2021
   ref: https://ieeexplore.ieee.org/document/9530524
@@ -82,7 +82,7 @@
 
 - title: Near-optimal polynomial for modulus reduction using L2-norm for approximate homomorphic encryption
   conference: IEEE Access
-  author: Yongwoo Lee, Joon-Woo Lee, Young-Sik Kim*, and Jong-Seon No
+  author: Yongwoo Lee, <stonrg>Joon-Woo Lee</strong>, Young-Sik Kim*, and Jong-Seon No
   month: August
   year: 2020
   ref: https://ieeexplore.ieee.org/document/9159551
@@ -90,7 +90,7 @@
 
 - title: Improvement of extended least difference greedy clique-cover algorithm for index coding
   conference: ICTC 2018
-  author: Joon-Woo Lee, Jae-Won Kim*, and Jong-Seon No
+  author: <stonrg>Joon-Woo Lee</strong>, Jae-Won Kim*, and Jong-Seon No
   month: October
   year: 2018
   ref: https://ieeexplore.ieee.org/document/8539615
