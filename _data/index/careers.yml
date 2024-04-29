@@ -1,59 +1,28 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name:
-    detail: PAICLAB
-    i18n: paiclab
-  desc:
-    detail: PAICLAB established in Chung-Ang University
-    i18n: paiclab_desc
-  date:
-    detail: Sep. 2022
-    i18n: paiclab_date
-  job:
-    detail: 
-    i18n: 
-  icon: fa-plus-square
-
-- name:
-    detail: Unggi Yeo
-    i18n: yeo
-  desc:
-    detail: Unggi Yeo joined PAICLAB as graduate student
-    i18n: yeo_desc
-  date:
-    detail: Aug. 2023
-    i18n: yeo_date
-  job:
-    detail: Master's student
-    i18n: yeo_job
+- name: Jaeyoung Bae
+  desc: Jaeyoung Bae joined PAICLAB as graduate student
+  date: Feb. 2024
+  job: Master's student
   icon: fa-plus-square
   present: true
 
-- name:
-    detail: "Rotation Key Reduction for Client-Server Systems of Deep Neural Network on Fully Homomorphic Encryption"
-    i18n: asiacrypt1
-  desc:
-    detail: Paper has been accepted to ASIACRYPT 2023
-    i18n: asiacrypt1_desc
-  date:
-    detail: Dec.2023
-    i18n: asiacrypt1_date
-  job:
-    detail: ASIACRYPT
-    i18n: asiacrypt1_job
-  icon: fa-plus-square
-
-- name:
-    detail: Jaeyoung Bae
-    i18n: bae
-  desc:
-    detail: Jaeyoung Bae joined PAICLAB as graduate student
-    i18n: bae_desc
-  date:
-    detail: Feb. 2024
-    i18n: bae_date
-  job:
-    detail: Master's student
-    i18n: bae_job
+- name: "Rotation Key Reduction for Client-Server Systems of Deep Neural Network on Fully Homomorphic Encryption"
+  desc: Paper has been accepted to ASIACRYPT 2023
+  date: Dec.2023
+  job: ASIACRYPT
   icon: fa-plus-square
   present: true
+
+- name: Unggi Yeo
+  desc: Unggi Yeo joined PAICLAB as graduate student
+  date: Aug. 2023
+  job: Master's student
+  icon: fa-plus-square
+  present: true
+
+- name: PAICLAB
+  desc: PAICLAB established in Chung-Ang University
+  date: Sep. 2022
+  job: PAICLAB
+  icon: fa-plus-square
