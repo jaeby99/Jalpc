@@ -8,26 +8,10 @@
       {% endfor %}
     </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-
-      <div class="item active">
-        <div class="carousel-caption"></div>
-        <img src="{{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[0].src }}" alt="{{ site.data.index.banners[0].title }}" style="width:100%;">
-        <div class="row">
-            <h2 style="font-size: 80px; font-family: 'Courier New', Courier, monospace;">
-                <span>Private Artificial Intelligence and Cryptography Lab</span>
-            </h2>
-        </div>
-      </div>
-
-      {% for banner in site.data.index.banners offset:1 %}
-      <div class="item">
-        <div class="carousel-caption"></div>
-        <img src="{{ '/static/assets/img/'  | prepend: site.baseurl }}{{ banner.src }}" alt="{{ banner.title }}" style="width:100%;">
-      </div>
-      {% endfor %}
-      
+    <div class="item active" style="background-image: {{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[0].src }};">
+      <h2 style="font-size: 80px; font-family: 'Courier New', Courier, monospace;">
+          <span>Private Artificial Intelligence and Cryptography Lab</span>
+      </h2>
     </div>
   </div>
 </div>
