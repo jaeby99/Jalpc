@@ -1,14 +1,5 @@
 <div class="container-fluid">
-  <div id="inSlider" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-      {% for banner in site.data.index.banners offset:1 %}
-        <li data-target="#inSlider" data-slide-to="{{ forloop.index }}"></li>
-      {% endfor %}
-    </ol>
-
-    <div class="item active" style="background-image: url('https://cdn.pixabay.com/photo/2018/01/17/20/22/analytics-3088958_960_720.jpg'); width: 100%;">
-    </div>
+  <div class="item active" style="background-image: url('https://cdn.pixabay.com/photo/2018/01/17/20/22/analytics-3088958_960_720.jpg'); width: 100%;">
+      <p>Private Aritificial Intelligence and Cryptography Lab</p>
   </div>
 </div>
