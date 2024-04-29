@@ -2,7 +2,7 @@
 
 - title: Rotation Key Reduction for Client-Server Systems of Deep Neural Network on Fully Homomorphic Encryption
   conference: ASIACRYPT 2023
-  author: Joon-Woo Lee, Eunsang Lee*, Young-Sik Kim*, Jong-Seon No
+  author: <strong>Joon-Woo Lee</strong>, Eunsang Lee*, Young-Sik Kim*, Jong-Seon No
   month: December
   year: 2023
   ref: https://eprint.iacr.org/2022/532
