@@ -5,7 +5,7 @@
   date: 2023.09 ~ 
   research: Federated Learning
   email: sam1705@cau.ac.kr
-  img: "/Paiclab/static/assets/img/unggiyeo.jpeg"
+  img: "/Paiclab/static/assets/img/people/unggiyeo.jpeg"
   order: 1
 
 - name: Jaeyoung Bae (배재영)
@@ -13,7 +13,7 @@
   date: 2024.03 ~ 
   research: Lattice Attack Algorithm
   email: qo0102@cau.ac.kr
-  img: "/Paiclab/static/assets/img/jaeyoungbae.jpeg"
+  img: "/Paiclab/static/assets/img/people/jaeyoungbae.jpeg"
   order: 0
 
 - name: Byeongseo Min (민병서)
@@ -21,7 +21,7 @@
   date: 2023.03 ~ 
   research: Privacy-Preserving Machine Learning
   email: smbyeongseo@gmail.com
-  img: "/Paiclab/static/assets/img/shadow.png"
+  img: "/Paiclab/static/assets/img/people/shadow.png"
   order: 1
 
 - name: Dongjin Park (박동진)
@@ -29,7 +29,7 @@
   date: 2023.09 ~ 
   research: Privacy-Preserving Machine Learning in Transformer
   email: thrudgelmir@cau.ac.kr
-  img: "/Paiclab/static/assets/img/shadow.png"
+  img: "/Paiclab/static/assets/img/people/shadow.png"
   order: 0
 
 - name: Gyeongwon Cha (차경원)
@@ -37,7 +37,7 @@
   date: 2024.01 ~ 
   research: Multi-key HE, ZKP
   email: dbfldk20j@gmail.com
-  img: "/Paiclab/static/assets/img/cha.jpeg"
+  img: "/Paiclab/static/assets/img/people/cha.jpeg"
   order: 0
 
 - name: Dahee Yun (윤다희)
@@ -45,5 +45,5 @@
   date: 2024.01 ~ 
   research: Signal Processing
   email: dbsekgml518@cau.ac.kr
-  img: "/Paiclab/static/assets/img/dahee.jpeg"
+  img: "/Paiclab/static/assets/img/people/dahee.jpeg"
   order: 0
