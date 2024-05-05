@@ -1,5 +1,9 @@
 # PAICLAB readme instructions
 
+# Grid System
+
+<https://getbootstrap.com/docs/4.0/getting-started/introduction/>
+
 # File Structure
 - [_data] (index for webpages)
     - [index] (index page)
